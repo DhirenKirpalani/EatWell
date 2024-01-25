@@ -8,7 +8,7 @@ const updateBtn=document.getElementById('update-btn')
 const cancelBtn=document.getElementById('cancel-btn')
 let user=json.parse(localStorage.getItem('users'))||[]
 let currentUserId=null
-const validRegex= /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[]
+const validRegex = /^[a-zA-Z0-9!#%&*+/=?^_^{|}~-]+[a-zA-Z0-9-1 +(7:1.[a-zA-Z0-9-]+)$/;
 
 // Functions
 function renderTable() {
