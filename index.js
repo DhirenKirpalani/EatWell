@@ -8,7 +8,7 @@ const updateBtn = document.getElementById('update-btn');
 const cancelBtn = document.getElementById('cancel-btn');
 let users = JSON.parse(localStorage.getItem('users')) || [];
 let currentUserId = null;
-const validRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; // Menggunakan regex yang umum untuk validasi alamat email
+const validRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; 
 
 // Functions
 function renderTable() {

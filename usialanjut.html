@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <h1>PENDAFTARAN PASIEN USIA LANJUT</h1>
+        <div id="input-container">
+            <input type="text" id="name-input" placeholder="Masukkan Nama">
+            <input type="text" id="email-input" placeholder="Masukkan Email">
+         
+            <button id="add-btn">add</button>
+        </div>
+        <div id="table-wrapper">
+            <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nama</th>
+                    <th>Email</th>       
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+            <tbody id="table-body"></tbody>
+        </table>
+        </div>
+        <div id="update-container">
+            <input type="text" id="update-name-input">
+            <input type="text" id="update-email-input">
+            <button id="update-btn">update</button>
+            <button id="cancel-btn">cancel</button>
+        </div>
+        <tbody id="table-body"></tbody>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
+
+

@@ -3,9 +3,20 @@
     margin: 0 auto;
     text-align: center;
 }
+  body { 
+    background-color:#A6CF98;
+    margin:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+  }
 
 h1{
-    margin-top: 0;
+    margin-top: center;
+}
+.bg-green {
+    background-color: green !important; 
 }
 
 #input-container{
@@ -14,6 +25,7 @@ h1{
 
 #name-input,
 #email-input,
+#qty-input,
 #update-name-input,
 #update-email-input{
     padding: 10px;
@@ -25,6 +37,7 @@ h1{
 
 #name-input:focus,
 #email-input:focus,
+#qty-input:focus,
 #update-name-input:focus,
 #update-email-input:focus{
     border-color: #66afe9;
@@ -61,7 +74,7 @@ td{
 }
 
 th{
-    background-color: #4caf50;
+    background-color: #6962AD;
     color: white;
 }
 
@@ -82,4 +95,25 @@ th{
 .delete-btn{
     background-color: #dc3545;
     margin-left: 10px;
+}
+#table-wrapper {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin: 0 auto; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center; 
 }
